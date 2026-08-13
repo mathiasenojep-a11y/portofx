@@ -361,6 +361,132 @@ color: #222;
     box-shadow: 0 0 10px rgba(249, 200, 14, 0.5);
 }
 
+/* PROJECTS SECTION */
+
+.projects {
+  padding: 100px 8%;
+  
+}
+
+.projects-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Heading */
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading span {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.section-heading h2 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.section-heading p {
+  max-width: 600px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+/* Project Grid */
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Project Card */
+
+.project-card {
+  background: #f9c80e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Project Image */
+
+.project-image {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9c80e;
+}
+
+.project-image span {
+  font-size: 60px;
+}
+
+/* Project Content */
+
+.project-content {
+  padding: 25px;
+}
+
+.project-content h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.project-content p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Technologies */
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.tech-stack span {
+  padding: 6px 10px;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+/* Links */
+
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  padding: 10px 16px;
+  border: 1px solid #222;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s;
+  color: blue;
+}
+
+.project-links a:hover {
+  background: #222;
+  color: white;
+}
 
 
 
